@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myDiv1, #myDiv2 {
+          background-color: coral;
+          padding: 50px;
+        }
+        
+        #myP1, #myP2 {
+          background-color: white; 
+          font-size: 20px;
+          border: 1px solid;
+          padding: 20px;
+        }
+        #myDIV {
+        background-color: coral;
+        border: 1px solid;
+        padding: 50px;
+        color: white;
+        font-size: 20px;
+        }
+        </style>
+</head>
+<body>
+    <h2>JavaScript addEventListener()</h2>
+
+<button id="myBtn">Try it</button>
+
+<p class="output"></p>
+<button id="myBtnOne">click</button>
+
+<button id="myBtnTwo">Click Me </button>
+
+<div id="myDiv1">
+    <h2>Bubbling:</h2>
+    <p id="myP1">Click me!</p>
+  </div><br>
+  
+  <div id="myDiv2">
+    <h2>Capturing:</h2>
+    <p id="myP2">Click me!</p>
+  </div>
+
+
+  <div id="myDIV">
+    <p>This div element has an onmousemove event handler that displays a random number every time you move your mouse inside this orange field.</p>
+    <p>Click the button to remove the div's event handler.</p>
+    <button onclick="removeHandler()" id="myBtn">Remove</button>
+  </div>
+  
+  <p id="demo"></p>
+
+    <script src="index.js"></script>
+</body>
+</html>

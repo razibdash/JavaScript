@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="console.log('Document Loaded!')">
+
+    <button id="title" onclick="ChangeTExt()">Over Me</button>
+    <button id="button">Click</button>
+
+    <input onchange="console.log('onchange!')" placeholder="enter name" type="text">
+
+    <button id="mouseOver" onmouseover="mOver()" onmouseout="mOut()">Mouse Over Me</button>
+
+    <button id="onmousedown" onmousedown="mDown()" onmouseup="mUp()">Click ME</button>
+
+    Enter your name: <input type="text" id="fname" onchange="upperCase()">
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Animation</title>
+    <style>
+      #container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: rgb(54, 253, 64);
+  
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: red;
+  border-radius: 5px;
+}
+#animate2 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 0px;
+  background: blue;
+  border-radius: 5px;
+}
+#animate3 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 160px;
+  background: rgb(2, 2, 22);
+  border-radius: 5px;
+}
+#animate4 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right:0px;
+  top: 160px;
+  background: rgb(144, 7, 7);
+  border-radius: 5px;
+}
+#animate5 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 160px;
+  background: rgb(53, 53, 173);
+  border-radius: 5px;
+}
+#animate6 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 350px;
+  background: rgb(2, 2, 136);
+  border-radius: 5px;
+}
+#animate7 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 350px;
+  right: 0px;
+  background: rgb(255, 133, 2);
+  border-radius: 5px;
+}
+#animate8 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom:0px;
+  left: 160px;
+  background: rgb(183, 2, 255);
+  border-radius: 5px;
+}
+button{
+    width: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+    background: blue;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div id ="container">
+  <div id ="animate"></div>
+  <div id ="animate2"></div>
+  <div id ="animate3"></div>
+  <div id ="animate4"></div>
+  <div id ="animate5"></div>
+  <div id ="animate6"></div>
+  <div id ="animate7"></div>
+  <div id ="animate8"></div>
+</div>
+<button onclick="myMove()">Animation</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
